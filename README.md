@@ -7,7 +7,7 @@ The following logic was built into this program:
 	3) Once a ship has been added, the user goes immediately into "Attack" mode as there is no persistence. As the user specifies which
 	coordinate they want to hit, they get a response telling them whether they have hit or not.
 	4) Once all 5 turns at attacking have taken place, the user is notified as to whether all battleships have been sunk (i.e. the player lost),
-	or if they still have pieces surviging on the board.
+	or if they still have pieces surviving on the board.
 
 The reasoning behind the 5 turns to attack is it's the size of the largest type of ship possible on the board.
 
