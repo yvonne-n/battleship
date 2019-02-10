@@ -127,7 +127,7 @@ namespace Battleships.Players
 
                         for (int i = 0; i < carrier.size; i++)
                         {
-                            Console.WriteLine("Please enter the next NUMBER for your selected column: ");
+                            Console.WriteLine("Please enter the next NUMBER for your selected row: ");
                             row = Console.ReadLine();
                             rowID = int.Parse(column);
 
@@ -164,7 +164,7 @@ namespace Battleships.Players
 
                         for (int i = 0; i < cruiser.size; i++)
                         {
-                            Console.WriteLine("Please enter the next NUMBER for your selected column: ");
+                            Console.WriteLine("Please enter the next NUMBER for your selected row: ");
                             row = Console.ReadLine();
                             rowID = int.Parse(column);
 
@@ -201,7 +201,7 @@ namespace Battleships.Players
 
                         for (int i = 0; i < battleship.size; i++)
                         {
-                            Console.WriteLine("Please enter the next NUMBER for your selected column: ");
+                            Console.WriteLine("Please enter the next NUMBER for your selected row: ");
                             row = Console.ReadLine();
                             rowID = int.Parse(column);
 
@@ -238,7 +238,7 @@ namespace Battleships.Players
 
                         for (int i = 0; i < destroyer.size; i++)
                         {
-                            Console.WriteLine("Please enter the next NUMBER for your selected column: ");
+                            Console.WriteLine("Please enter the next NUMBER for your selected row: ");
                             row = Console.ReadLine();
                             rowID = int.Parse(column);
 
@@ -275,7 +275,7 @@ namespace Battleships.Players
 
                         for (int i = 0; i < submarine.size; i++)
                         {
-                            Console.WriteLine("Please enter the next NUMBER for your selected column: ");
+                            Console.WriteLine("Please enter the next NUMBER for your selected row: ");
                             row = Console.ReadLine();
                             rowID = int.Parse(column);
 
