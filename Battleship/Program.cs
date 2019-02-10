@@ -15,7 +15,7 @@ namespace Battleship
             Console.WriteLine("Welcome to Battleships!");
             Player p1 = new Player();
 
-            // Leaving this here so that the console does not close unexpectedly.
+            Console.WriteLine("Hit enter to close the application.");
             Console.ReadLine();
         }
     }
