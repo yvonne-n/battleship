@@ -11,9 +11,9 @@ The following logic was built into this program:
 
 The reasoning behind the 5 turns to attack is it's the size of the largest type of ship possible on the board.
 
-Where possible I have implemented either abstract classes or interfaces to make sure that the design was following all necessary requirements.
+- Where possible I have implemented either abstract classes or interfaces to make sure that the design was following all necessary requirements.
+- The design choice between me asking for a row, and then only all columns after, or the column first and then only the rows after is to ensure the user only adds ships in a horizontal or vertical manner.
 
-Please note, instructions for the game (regarding sizing and general guidelines) were
-taken from the following site, as well as the email: https://www.thesprucecrafts.com/the-basic-rules-of-battleship-411069
+Please note, instructions for the game (regarding sizing and general guidelines) were taken from the following site, as well as the email: https://www.thesprucecrafts.com/the-basic-rules-of-battleship-411069
 
 Thankyou for taking the time to review my code!
