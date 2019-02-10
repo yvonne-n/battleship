@@ -32,7 +32,7 @@ namespace Battleships.Players
             }
 
             Console.WriteLine("----All moves have now been played. Checking the result.----");
-            string result = board.checkIfLost() ? "You did not win this round." : "Congratulations! You won!";
+            string result = board.checkIfLost() ? "All ships have been sunk." : "Congratulations! You won! Your ships were not sunk.";
             Console.WriteLine(result);
         }
 
@@ -129,7 +129,7 @@ namespace Battleships.Players
                         {
                             Console.WriteLine("Please enter the next NUMBER for your selected row: ");
                             row = Console.ReadLine();
-                            rowID = int.Parse(column);
+                            rowID = int.Parse(row);
 
                             board.addShip(rowID, columnID);
                         }
@@ -166,7 +166,7 @@ namespace Battleships.Players
                         {
                             Console.WriteLine("Please enter the next NUMBER for your selected row: ");
                             row = Console.ReadLine();
-                            rowID = int.Parse(column);
+                            rowID = int.Parse(row);
 
                             board.addShip(rowID, columnID);
                         }
@@ -203,7 +203,7 @@ namespace Battleships.Players
                         {
                             Console.WriteLine("Please enter the next NUMBER for your selected row: ");
                             row = Console.ReadLine();
-                            rowID = int.Parse(column);
+                            rowID = int.Parse(row);
 
                             board.addShip(rowID, columnID);
                         }
@@ -240,7 +240,7 @@ namespace Battleships.Players
                         {
                             Console.WriteLine("Please enter the next NUMBER for your selected row: ");
                             row = Console.ReadLine();
-                            rowID = int.Parse(column);
+                            rowID = int.Parse(row);
 
                             board.addShip(rowID, columnID);
                         }
@@ -277,7 +277,7 @@ namespace Battleships.Players
                         {
                             Console.WriteLine("Please enter the next NUMBER for your selected row: ");
                             row = Console.ReadLine();
-                            rowID = int.Parse(column);
+                            rowID = int.Parse(row);
 
                             board.addShip(rowID, columnID);
                         }
